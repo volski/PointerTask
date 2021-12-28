@@ -1,0 +1,9 @@
+version: '2.3'
+services:
+  order_verticle:
+    build: ./OrderVerticle/
+
+  rest_verticle:
+    build: ./RestVerticle/
+    ports:
+      - "9999:9999"
