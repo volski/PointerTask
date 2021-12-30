@@ -6,11 +6,11 @@
     <artifactId>OrderVerticle</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <parent>
+<!--     <parent>
         <groupId>com.volski.PointerTask</groupId>
         <artifactId>Task</artifactId>
         <version>1.0-SNAPSHOT</version>
-    </parent>
+    </parent> -->
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,7 +18,25 @@
         <main.class>com.volski.PointerTask.Main</main.class>
     </properties>
 
-    <dependencies></dependencies>
+    <dependencies>
+     <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-core</artifactId>
+            <version>${vertx.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-web</artifactId>
+                  <version>${vertx.version}</version>
+
+    </dependency>
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-hazelcast</artifactId>
+                  <version>${vertx.version}</version>
+
+    </dependency>
+    </dependencies>
 
     <build>
         <resources>
