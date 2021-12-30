@@ -6,12 +6,12 @@
     <artifactId>RestVerticle</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <parent>
+<!--     <parent>
         <groupId>com.volski.PointerTask</groupId>
         <artifactId>Task</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
+ -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <vertx.version>3.8.4</vertx.version>
